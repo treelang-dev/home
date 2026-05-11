@@ -1,91 +1,100 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
+  name: "Treelang",
   title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  description: "Personal Portfolio and Technical Blog, Practical Applications in Simulation, Android Development, Personal Servers, Cloudflare, and Automation",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "treelang.dev@gmail.com",
+    github: "https://github.com/treelang-dev",
+    telegram: "https://t.me/treelang_dev",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I focus on engineering simulation, software development, and personal server setup, and I enjoy transforming ideas sparked during my learning process into practical projects that are runnable, presentable, and maintainable. My current primary areas of practice include battery simulation, Android development, system deployment, Cloudflare service configuration, and the creation of automation workflows. This website serves as a repository for my projects, technical notes, and access points to my personal web services",
+  skills: [
+    "Abaqus",
+    "FEM-DEM / SPH",
+    "Battery Simulation",
+    "Android Development",
+    "Java",
+    "XML",
+    "GitHub Actions",
+    "Linux / Debian",
+    "Cloudflare",
+    "Docker",
+    "Qinglong",
+    "System Deployment",
+    "Server Maintenance",
+    "Automation",
+  ],
+
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Battery Electrode Simulation",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Focused on the structural evolution of all-solid-state battery electrodes during the compaction and sintering processes. Conducted modeling and analysis combining FEM, DEM, and SPH methods to study particle contact, pore variation, and material deformation patterns.",
+      link: "#",
+      skills: ["Abaqus", "FEM-DEM", "SPH", "Battery Simulation"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Mean - System Privilege & App Management",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Developed an advanced system utility application that combines Shizuku-style privilege elevation with comprehensive application management features. Interacts with low-level Android APIs to manage package states, control background processes, and provide users with fine-grained control over their device's application ecosystem.",
+      link: "https://github.com/treelang-dev/mean",
+      skills: ["Android", "Java", "System APIs", "Privilege Management", "CI/CD"],
     },
     {
-      name: "ExtensionKit",
+      name: "Films - Automated Web Scraping Tool",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Engineered an automated Android utility to scrape and aggregate nationwide cinema coupon data. Implemented a hidden WebView with JavaScript injection to simulate real user behavior and bypass anti-scraping mechanisms. Utilized a state machine for reliable, cross-city data extraction and integrated Apache POI to export the compiled datasets directly into Excel (.xlsx) files.",
+      link: "https://github.com/treelang-dev/films",
+      skills: ["Android", "Java", "WebView", "JS Injection", "Apache POI"],
+    },
+    {
+      name: "Personal Server & Network Deployment",
+      description:
+        "Deployed Debian 12 OS on low-power devices and built a personal network environment utilizing services like Cloudflare Tunnel and Cloudflare Access, achieving secure access and centralized management of intranet services.",
+      link: "#",
+      skills: ["Debian", "Cloudflare", "Tunnel", "Access"],
+    },
+    {
+      name: "Qinglong Automation Center",
+      description:
+        "Managed scheduled tasks, scripts, environment variables, and push notifications based on the Qinglong panel. Combined with a personal server and Cloudflare services to realize daily task automation and remote secure access.",
+      link: "https://ql.treelang.me",
+      skills: ["Qinglong", "Docker", "Automation", "Server"],
+    },
+    {
+      name: "Treelang Portfolio & Tech Blog",
+      description:
+        "Built a personal portfolio and tech blog using Astro and Tailwind CSS to showcase personal projects, technical directions, learning logs, and web service portals, deployed via Cloudflare Pages.",
+      link: "https://blog.treelang.me",
+      skills: ["Astro", "Tailwind CSS", "Cloudflare Pages"],
     },
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Dongguan Automotive Technology School",
+      title: "Intern Teacher & Assistant Homeroom Teacher",
+      dateRange: "Sep 2025 - Nov 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Assisted in teaching courses related to new energy vehicles, integrating professional theoretical knowledge with the teaching needs of secondary vocational education.",
+        "Assisted in managing the daily affairs of Class 2, Marketing Major (Grade 2024), paying attention to students' learning progress, classroom performance, and psychological well-being.",
+        "Participated in organizing class practical activities and daily management, accumulating practical experience in vocational education teaching and student management.",
       ],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Guangdong Polytechnic Normal University",
+      degree: "Bachelor's in New Energy Vehicle Engineering (Outstanding Vocational Teachers Program)",
+      dateRange: "2022 - 2026",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "GPA: 3.78",
+        "Certifications: CET-6, National Computer Rank Examination (NCRE) Grade 2 (MS Office), Mandarin Proficiency Test Grade 2 Level A, and Motor Vehicle Driver's License.",
+        "Participated in research projects related to all-solid-state battery simulation, primarily responsible for modeling, analysis, and paper organization.",
       ],
     },
   ],
